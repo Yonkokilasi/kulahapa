@@ -1,0 +1,237 @@
+    /*Beginning of header*/
+    /* Beginning of login button styling */
+    
+    button {
+        border: 0;
+        background: #0087cc;
+        border-radius: 4px;
+        box-shadow: 0 5px 0 #006599;
+        color: #fff;
+        cursor: pointer;
+        font: inherit;
+        margin-right: 30px;
+        outline: 0;
+        padding: 12px 20px;
+        transition: all .1s linear;
+        float: right;
+    }
+    /*Ending of login button styling */
+    /*End of header
+
+/*Beginning of body*/
+    /* beginning of search styling*/
+    
+    .search {
+        margin: 140px;
+        margin-top: 0px;
+    }
+    /*end of search styling*/
+    /*Beginning of body styling*/
+    /*Beginning of quick search styling*/
+    
+    .quicksearch {
+        margin-bottom: 40px;
+        padding-top: 20px;
+    }
+    /*End of quick search styling*/
+    /*End of body styling*/
+    /*End of body*/
+    /*Begining of footer*/
+    
+    @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+    @import url(http://fonts.googleapis.com/css?family=Gudea);
+    .footer-area {
+        background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
+        padding-top: 40px;
+        padding-right: 0;
+        padding-bottom: 20px;
+        padding-left: 0;
+        /*	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;*/
+    }
+    .title-widget {
+        color: #898989;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1;
+        position: relative;
+        text-transform: uppercase;
+        font-family: 'Fjalla One', sans-serif;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 25px;
+        margin-left: 0;
+        padding-left: 28px;
+    }
+    .title-widget::before {
+        background-color: #ea5644;
+        content: "";
+        height: 22px;
+        left: 0px;
+        position: absolute;
+        top: -2px;
+        width: 5px;
+    }
+    .widget_nav_menu ul {
+        list-style: outside none none;
+        padding-left: 0;
+    }
+    .widget_archive ul li {
+        background-color: rgba(0, 0, 0, 0.3);
+        content: "";
+        height: 3px;
+        left: 0;
+        position: absolute;
+        top: 7px;
+        width: 3px;
+    }
+    .widget_nav_menu ul li {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        position: relative;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+        width: 95%;
+    }
+    .title-median {
+        color: #636363;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0 0 15px;
+        text-transform: uppercase;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    .footerp p {
+        font-family: 'Gudea', sans-serif;
+    }
+    .nomargin {
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer-bottom {
+        background-color: #15224f;
+        min-height: 30px;
+        width: 100%;
+    }
+    .copyright {
+        color: #fff;
+        line-height: 30px;
+        min-height: 30px;
+        padding: 7px 0;
+    }
+    .design {
+        color: #fff;
+        line-height: 30px;
+        min-height: 30px;
+        padding: 7px 0;
+        text-align: right;
+    }
+    .design a {
+        color: #fff;
+    }
+    /*logo*/
+    
+    #logos {
+        background-image: url("../images/Turkish-Cuisine-Food-HD-Wallpaper.jpg");
+        background-size: cover;
+        width: 100vw;
+        height: 50vh;
+    }
+    #logo {
+        margin-left: 650px;
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 590px;
+        padding: 1px;
+    }
+    /*end of logo*/
+    /*End of footer*/
+    
+    h1 {
+        font-family: 'Droid Serif', serif;
+    }
+    h2 {
+        font-family: 'PT Sans Caption', sans-serif;
+    }
+    .fa {
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    p {
+        font-family: 'Cinzel', serif;
+    }
+    /*navbar*/
+    
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        /* Black fallback color */
+        background-color: rgba(0, 0, 0, 0.7);
+        /* Black w/opacity */
+        ;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 1.8s;
+    }
+    .sidenav a {
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover,
+    .offcanvas a:focus {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    /*end of navbar*/
+    /*carousel css*/
+    
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .carousel-caption {
+        position: absolute;
+        /*  padding: 50px;*/
+        margin-bottom: 200px;
+        margin-left: -55px;
+    }
+    .item img {
+        max-height: 600px;
+    }
+    /*end*/
+    /*flexbox moving pictures*/
+    
+    .flex-wrap-container {
+        padding-top: -600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*end*/

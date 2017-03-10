@@ -1,0 +1,84 @@
+/*Beginning of bookreservations.html*/
+
+body {
+  background-image: url(../images/ap.jpg);
+  color: skyblue;
+  margin-left: 0px;
+}
+
+
+/* Beginning of back to home-page button styling */
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin-right: 30px;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+  float: right;
+}
+
+
+/*Ending of back to homepage styling */
+
+
+/*End of bookreservations.html*/
+
+
+/*/// login css*/
+
+.col-md-6 {
+  border-right: 2px solid #dedcdb;
+}
+
+{}
+
+h1 {
+  font-family: 'Droid Serif', serif;
+}
+
+h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+p {
+  font-family: 'Cinzel', serif;
+}
+
+#quote {
+  font-size: 35px;
+  padding-left: 30px;
+}
+
+#name {
+  color: skyblue;
+  font-size: 40px;
+  text-shadow: 3px 3px 3px white;
+}
+
+#logo {
+  margin-left: 600px;
+  height: 200px;
+  width: 200px;
+}
+
+#blanks {
+  color: whitesmoke;
+}
+
+
+/*end of login*/
+
+.header:hover {
+  opacity: 1;
+}
+
+#landing {
+  display: none;
+}

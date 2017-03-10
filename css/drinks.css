@@ -1,0 +1,28 @@
+/*Beginning of bookreservations.html*/
+
+body {
+  background-image: url(../images/dark.jpg);
+  background-size: cover;
+  color: white;
+}
+
+
+/* Beginning of back to home-page button styling */
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin-right: 30px;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+  float: right;
+}
+
+
+/* Delivery.html styling */
