@@ -235,3 +235,10 @@
         flex-wrap: wrap;
     }
     /*end*/
+
+/*About page.....*/
+#about{
+    background-image: url("../images/wood-planks-1600x900.jpg");
+    color: white;
+    font-weight: 200px;
+}
