@@ -1,6 +1,6 @@
 
 ## Kula Hapa Website
-[Project site]( https://yonkokilasi.github.io/foodzone)
+[Project site]( https://yonkokilasi.github.io/kulahapa)
 
 ##Contributors:
 * [Philip Mutua](https://github.com/pmutua)-Product Owner/Software Engineer
