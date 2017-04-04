@@ -25,7 +25,7 @@ In Kula Hapa we have the menu's for all the food establishments that have partne
 Make sure you have git installed. On the terminal, navigate to your workspace directory and run
 
 ```bash
-$ git clone https://github.com/Yonkokilasi/kulahapa
+$ git clone https://github.com/Yonkokilasi/kulahapa.git
 
 ```
 ## Contributing
